@@ -44,7 +44,7 @@ Usamos a **API-Ninjas** para trazer exercícios de alongamento fresquinhos diret
 - **API-Ninjas**: Para os exercícios, você vai precisar de uma chave. Crie sua conta em [API-Ninjas](https://api-ninjas.com/), pegue sua chave e substitua no código. Fácil, né?
 
 <div style="text-align: center;">
-  <img src="./assets/img/api-ninja-key.png" alt="Exemplo de código da API" width="500">
+  <img src="../../assets/img/api-ninja-key.png" alt="Exemplo de código da API" width="500">
 </div>
 
 ## 📌 Versão Atual
