@@ -25,7 +25,7 @@ Usamos a **API-Ninjas** para trazer exercícios de alongamento fresquinhos diret
 
 1. **Clone o projeto**:  
    ```bash
-   git clone [https://github.com/maycompires/Mini-Projeto-Pomodoro.git]
+   git clone https://github.com/alanamandimifsc/mini-projeto-pomodoro.git
    ```
 2. Abra o arquivo `index.html` no seu navegador favorito e pronto!
 
@@ -42,6 +42,8 @@ Usamos a **API-Ninjas** para trazer exercícios de alongamento fresquinhos diret
 
 - **Licença**: Somos MIT - sinta-se à vontade para usar e compartilhar!
 - **API-Ninjas**: Para os exercícios, você vai precisar de uma chave. Crie sua conta em [API-Ninjas](https://api-ninjas.com/), pegue sua chave e substitua no código. Fácil, né?
+
+![Exemplo de código da API](caminho/para/sua/imagem.png)
 
 ## 📌 Versão Atual
 
@@ -66,4 +68,4 @@ Valeu por querer fazer parte disso! 🚀
 
 🍅 **Dica**: Foco é bom, mas um alongamento nos intervalos é ainda melhor. Experimente e veja como seu dia flui mais leve!
 
---- 
+---
