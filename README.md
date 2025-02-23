@@ -1,7 +1,3 @@
-Aqui está uma versão personalizada e interativa do README.md para o seu Mini Projeto Pomodoro. Mantive o conteúdo essencial, mas adicionei um tom mais envolvente e elementos visuais sutis para torná-lo mais atrativo e dinâmico, como se estivesse "conversando" com o leitor:
-
----
-
 # 🍅 Mini Projeto Pomodoro - Seu Companheiro de Foco!
 
 Bem-vindo ao **Mini Projeto Pomodoro**, um temporizador simples, mas poderoso, que vai te ajudar a manter o foco e ainda cuidar do corpo com exercícios durante os intervalos. Vamos transformar sua produtividade em algo prático e divertido!
@@ -29,7 +25,7 @@ Usamos a **API-Ninjas** para trazer exercícios de alongamento fresquinhos diret
 
 1. **Clone o projeto**:  
    ```bash
-   git clone https://github.com/alanamandimifsc/mini-projeto-pomodoro.git
+   git clone [https://github.com/maycompires/Mini-Projeto-Pomodoro.git]
    ```
 2. Abra o arquivo `index.html` no seu navegador favorito e pronto!
 
