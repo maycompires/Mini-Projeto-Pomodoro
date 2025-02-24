@@ -1,75 +1,90 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik:500");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 html,
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 150%;
+    height: 100%;
     width: 100%;
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
-    background: linear-gradient(120deg, #4caf50, #8bc34a);
+    background: linear-gradient(135deg, #2a2a72, #009ffd);
     background-repeat: no-repeat;
     background-size: cover;
+    color: #e0e0e0;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 20px;
 }
 
 #atividade,
 #historico {
     text-align: center;
     width: 45vw;
-    height: auto;
-    padding: 20px;
-    background: #27a736;
-    box-shadow: 0px 0px 5px 5px #308933;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
     color: #ffffff;
-    border-radius: 20px;
-    margin: 20px 0px;
+    border-radius: 15px;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+#atividade:hover,
+#historico:hover {
+    transform: translateY(-5px);
 }
 
 .lista-exercicios {
     list-style: none;
     text-align: center;
-    }
-
-#atividade > li {
-    
+    padding: 0;
+    border-radius: 15px;
+    background-color: #4a4a4a;
+    color: #ffffff;
 }
 
 .title {
-    color: black;
+    color: gray;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #content {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 20px;
-    }
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+}
 
-.historico,
-li {
-list-style: none;
+.historico {
+    list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 12px;
-    column-fill: balance;
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: #4a4a4a;
+    color: #ffffff;
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 .digital {
@@ -77,20 +92,17 @@ list-style: none;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: #27a736;
-    box-shadow: 0px 0px 5px 5px #308933;
+    background: linear-gradient(45deg, #009ffd, #2a2a72);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     color: #ffffff;
-    font-size: 50px;
-    margin: 10px auto;
-    border: none;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 20px auto;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+    width: 220px;
+    height: 220px;
     position: relative;
     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     cursor: default;
 }
@@ -99,162 +111,163 @@ list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .btnConfig {
-    margin-top: 40px;
+    margin-top: 30px;
     background-color: transparent;
     border: none;
-    }
+    color: #ffffff;
+    cursor: pointer;
+}
 
 .config {
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .config label {
-    margin-right: 3px;
+    font-size: 16px;
+    color: #e0e0e0;
 }
 
 .config input {
-    width: 50px;
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ffffff50;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
 }
 
 .config span {
-    margin-left: 5px;
+    margin-left: 8px;
+    font-size: 16px;
 }
 
 #cbTempo {
-    border-radius: 5px;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 #buttons {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 2.5rem;
+    gap: 15px;
+    margin-bottom: 2rem;
 }
 
 #iniciar,
 #parar,
 #zerar {
-    padding: 16px 42px;
-    border-radius: 10px;
+    padding: 14px 40px;
+    border-radius: 12px;
     border: none;
-    box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
-    line-height: 1.25;
-    text-decoration: none;
-    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     font-size: 16px;
-    letter-spacing: 0.08em;
+    font-weight: 500;
     text-transform: uppercase;
-    position: relative;
-    margin-right: 10px;
-    transition: background-color 0.6s ease;
-    width: 200px;
-    overflow: hidden;
-    margin-top: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    width: 180px;
+    cursor: pointer;
 }
 
 #iniciar {
-    background-color: #2ecc40;
+    background: #00ddeb;
+}
+
+#iniciar:hover {
+    background: #00b8c4;
+    transform: translateY(-3px);
 }
 
 #parar {
-    background-color: #ffdc00;
+    background: #feca57;
+    color: #2a2a72;
+}
+
+#parar:hover {
+    background: #feb941;
+    transform: translateY(-3px);
 }
 
 #zerar {
-    background-color: #ff3860;
+    background: #ff5e78;
+}
+
+#zerar:hover {
+    background: #ff3d5e;
+    transform: translateY(-3px);
 }
 
 .exercicio-item {
-    margin-bottom: 20px;
-    line-height: 2.5;
+    margin-bottom: 15px;
+    line-height: 2;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #4a4a4a;
 }
 
 .button {
-    padding: 16px 42px;
-    border-radius: 3px;
+    padding: 14px 40px;
+    border-radius: 12px;
     border: none;
-    box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
-    line-height: 1.25;
-    background: #fc6e51;
-    text-decoration: none;
-    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background: #9b59b6;
+    color: #ffffff;
     font-size: 16px;
-    letter-spacing: 0.08em;
+    font-weight: 500;
     text-transform: uppercase;
-    position: relative;
-    margin-right: 10px;
-    transition: background-color 0.6s ease;
-    width: 200px;
-    overflow: hidden;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    width: 180px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #8e44ad;
+    transform: translateY(-3px);
 }
 
 .concluir {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2ecc40;
-    color: white;
-    padding: 15px 32px;
-    height: 32px;
+    background: #00ddeb;
+    color: #ffffff;
+    padding: 12px 28px;
     font-size: 14px;
-    margin: 4px 10px;
-    cursor: pointer;
+    font-weight: 500;
     border-radius: 10px;
     border: none;
-    transition-duration: 0.4s;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+    margin: 5px auto;
 }
 
 .concluir:hover {
-    background-color: #45a049;
+    background: #00b8c4;
+    transform: translateY(-2px);
 }
-
-.button:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    top: 50%;
-    left: 50%;
-    top: var(--mouse-y);
-    left: var(--mouse-x);
-    transform-style: flat;
-    transform: translate3d(-50%, -50%, 0);
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 100%;
-    transition: width 0.3s ease, height 0.3s ease;
-    }
-
-.button:focus,
-.button:hover {
-    background: darken(#fc6e51, 7%);
-}
-
-.button:active {
-    &:after {
-    width: 300px;
-    height: 300px;
-    }
-}
-
 
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        padding: 10px;
     }
 
     #content {
-        display: flex;
-        justify-content: center;
-        width: 90%;
+        width: 95%;
+        padding: 15px;
     }
 
     #atividade,
@@ -262,19 +275,29 @@ list-style: none;
         width: 90%;
     }
 
+    .digital {
+        width: 180px;
+        height: 180px;
+        font-size: 40px;
+    }
+
     .btnConfig {
         margin-top: 20px;
     }
 
     .config input {
-        width: 30px;
+        width: 40px;
     }
 
-    .button {
+    .button,
+    #iniciar,
+    #parar,
+    #zerar {
         width: 150px;
+        padding: 12px 30px;
     }
 
     #buttons {
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 }
